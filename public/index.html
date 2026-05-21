@@ -570,157 +570,6 @@
       }
     }
 
-  
-
-    .conversion-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 18px;
-      margin-top: 36px;
-    }
-
-    .conversion-pill {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 18px;
-      padding: 18px;
-      color: #dbeafe;
-      font-weight: 700;
-    }
-
-    .split-section {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .split-section h2 {
-      font-size: 3rem;
-      line-height: 1.1;
-      margin-bottom: 20px;
-    }
-
-    .split-section p {
-      color: #cbd5e1;
-      line-height: 1.8;
-      margin-bottom: 18px;
-    }
-
-    .highlight-panel {
-      background: linear-gradient(135deg, rgba(123,97,255,0.16), rgba(77,168,255,0.12));
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 30px;
-      padding: 34px;
-      backdrop-filter: blur(14px);
-    }
-
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 24px;
-      counter-reset: steps;
-    }
-
-    .step-card {
-      position: relative;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.07);
-      border-radius: 24px;
-      padding: 32px;
-    }
-
-    .step-card::before {
-      counter-increment: steps;
-      content: counter(steps);
-      width: 42px;
-      height: 42px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, #7b61ff, #4da8ff);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      margin-bottom: 20px;
-    }
-
-    .comparison {
-      overflow: hidden;
-      border-radius: 28px;
-      border: 1px solid rgba(255,255,255,0.08);
-      background: rgba(255,255,255,0.04);
-    }
-
-    .comparison-row {
-      display: grid;
-      grid-template-columns: 1.4fr 1fr 1fr;
-      border-bottom: 1px solid rgba(255,255,255,0.07);
-    }
-
-    .comparison-row:last-child {
-      border-bottom: none;
-    }
-
-    .comparison-row div {
-      padding: 18px;
-      color: #cbd5e1;
-    }
-
-    .comparison-row.head div {
-      color: #ffffff;
-      font-weight: 800;
-      background: rgba(123,97,255,0.18);
-    }
-
-    .check {
-      color: #86efac !important;
-      font-weight: 800;
-    }
-
-    .minus {
-      color: #fca5a5 !important;
-      font-weight: 800;
-    }
-
-    .faq {
-      max-width: 900px;
-      margin: auto;
-      display: grid;
-      gap: 16px;
-    }
-
-    .faq details {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 18px;
-      padding: 20px;
-    }
-
-    .faq summary {
-      cursor: pointer;
-      font-weight: 800;
-      color: #ffffff;
-    }
-
-    .faq p {
-      margin-top: 14px;
-      color: #cbd5e1;
-      line-height: 1.7;
-    }
-
-    @media (max-width: 900px) {
-      .split-section {
-        grid-template-columns: 1fr;
-      }
-
-      .split-section h2 {
-        font-size: 2.3rem;
-      }
-
-      .comparison-row {
-        grid-template-columns: 1fr;
-      }
-    }
   </style>
 </head>
 <body>
@@ -740,48 +589,48 @@
   <section class="hero">
     <div class="hero-text">
       <div class="badge">
-        🚀 Softwares inteligentes para gestão, automação e crescimento
+        🚀 Empresa Especializada em Soluções Inteligentes
       </div>
 
       <h1>
-        A tecnologia que mostra <span>o que acontece no seu negócio</span> e transforma operação em resultado
+        Desenvolvemos <span>softwares modernos</span> para empresas, igrejas e negócios digitais
       </h1>
 
       <p>
-        A FC & WR Soluções em Softwares desenvolve sistemas para empresas, igrejas e negócios que precisam sair do controle manual, centralizar informações e tomar decisões com dados claros.
+        A FC & WR Soluções em Softwares cria sistemas inteligentes focados em automação, gestão, controle operacional e crescimento digital. Desenvolvemos soluções robustas, modernas e escaláveis para transformar processos em resultados.
       </p>
 
       <div class="buttons">
         <a href="#solucoes" class="btn-primary">Conhecer Soluções</a>
-        <a href="#chat" class="btn-secondary" onclick="openChat(); return false;">Falar com Especialista</a>
+        <a href="#contato" class="btn-secondary">Solicitar Demonstração</a>
       </div>
     </div>
 
     <div class="dashboard">
       <div class="dashboard-header">
-        <div class="dashboard-title">Painel FC & WR</div>
-        <div class="status">● Gestão em tempo real</div>
+        <div class="dashboard-title">Ecossistema FC & WR</div>
+        <div class="status">● Infraestrutura Ativa</div>
       </div>
 
       <div class="cards">
         <div class="card">
-          <h3>Processos mapeados</h3>
-          <strong>100%</strong>
+          <h3>Sistemas Online</h3>
+          <strong>12+</strong>
         </div>
 
         <div class="card">
-          <h3>Dados centralizados</h3>
+          <h3>Clientes</h3>
+          <strong>350+</strong>
+        </div>
+
+        <div class="card">
+          <h3>Automação</h3>
           <strong>24/7</strong>
-        </div>
-
-        <div class="card">
-          <h3>Decisões com dados</h3>
-          <strong>+IA</strong>
         </div>
       </div>
 
       <div class="chart">
-        <h3>Crescimento com software</h3>
+        <h3>Crescimento da Plataforma</h3>
 
         <div class="bars">
           <div class="bar" style="height: 35%"></div>
@@ -795,57 +644,36 @@
   </section>
 
   <section id="empresa">
-    <div class="split-section">
-      <div>
-        <div class="badge">Sobre nós</div>
-        <h2>Chegamos para revelar o que está travando sua operação</h2>
-        <p>
-          Muitas empresas, igrejas e negócios crescem usando planilhas, cadernos, mensagens soltas e controles manuais. O problema é que, com o tempo, as informações se perdem e a gestão fica lenta.
-        </p>
-        <p>
-          A FC & WR cria sistemas que organizam dados, automatizam rotinas e entregam visão clara para o dono, gestor ou líder acompanhar tudo em um só lugar.
-        </p>
-      </div>
-
-      <div class="highlight-panel">
-        <h3>O que ajudamos você a enxergar</h3>
-        <div class="conversion-grid">
-          <div class="conversion-pill">Controle financeiro</div>
-          <div class="conversion-pill">Pessoas e membros</div>
-          <div class="conversion-pill">Processos internos</div>
-          <div class="conversion-pill">Indicadores de gestão</div>
-          <div class="conversion-pill">Relatórios inteligentes</div>
-          <div class="conversion-pill">Oportunidades de melhoria</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
     <div class="section-title">
-      <h2>Mais organização, mais controle e mais conversão</h2>
+      <h2>Tecnologia que impulsiona negócios</h2>
       <p>
-        Um bom software não serve apenas para registrar informações. Ele ajuda você a entender o negócio, reduzir perdas, melhorar atendimento e tomar decisões mais rápidas.
+        Desenvolvemos soluções completas para automatizar processos, aumentar produtividade e centralizar operações empresariais em uma plataforma moderna e inteligente.
       </p>
     </div>
 
     <div class="features">
       <div class="feature-box">
-        <div class="feature-icon">📊</div>
-        <h3>Dados em tempo real</h3>
-        <p>Tenha acesso aos principais indicadores da sua operação sem depender de controles espalhados.</p>
+        <div class="feature-icon">⚡</div>
+        <h3>Automação Inteligente</h3>
+        <p>
+          Sistemas preparados para executar processos automáticos, notificações, integrações e gerenciamento em tempo real.
+        </p>
       </div>
 
       <div class="feature-box">
-        <div class="feature-icon">⚙️</div>
-        <h3>Rotinas automatizadas</h3>
-        <p>Reduza tarefas repetitivas e ganhe tempo para focar no crescimento do negócio.</p>
+        <div class="feature-icon">🧠</div>
+        <h3>Integração com IA</h3>
+        <p>
+          Utilizamos inteligência artificial para análise de dados, geração de relatórios e otimização operacional.
+        </p>
       </div>
 
       <div class="feature-box">
-        <div class="feature-icon">🎯</div>
-        <h3>Gestão com direção</h3>
-        <p>Transforme informações em ações práticas para melhorar processos, equipe, finanças e atendimento.</p>
+        <div class="feature-icon">☁</div>
+        <h3>Infraestrutura Moderna</h3>
+        <p>
+          Projetos preparados para nuvem, alta performance, escalabilidade e segurança empresarial.
+        </p>
       </div>
     </div>
   </section>
@@ -854,7 +682,7 @@
     <div class="section-title">
       <h2>Nossas Soluções</h2>
       <p>
-        Softwares desenvolvidos para resolver dores reais de gestão, controle e crescimento.
+        Conheça os softwares já desenvolvidos e prontos para operação.
       </p>
     </div>
 
@@ -863,7 +691,7 @@
         <div class="feature-icon">⛪</div>
         <h3>Sistema de Gerenciamento de Igrejas</h3>
         <p>
-          Plataforma completa para administração eclesiástica, gestão pastoral, membros, células, eventos, contribuições e comunicação integrada.
+          Plataforma completa para administração eclesiástica, gestão pastoral, controle financeiro, eventos, ministérios e comunicação integrada.
         </p>
 
         <div class="buttons" style="margin-top:24px;">
@@ -875,7 +703,7 @@
         <div class="feature-icon">💳</div>
         <h3>Sistema de Controle Financeiro</h3>
         <p>
-          Sistema inteligente para fluxo de caixa, receitas, despesas, contas a pagar, contas a receber, relatórios e automação financeira.
+          Sistema inteligente para gestão financeira, fluxo de caixa, despesas, receitas, relatórios e automação empresarial.
         </p>
 
         <div class="buttons" style="margin-top:24px;">
@@ -887,80 +715,12 @@
         <div class="feature-icon">🛠️</div>
         <h3>Solução Personalizada</h3>
         <p>
-          Você apresenta sua ideia, necessidade ou problema e nossa equipe desenha o projeto do software ideal para sua empresa.
+          Você apresenta sua ideia, necessidade ou problema e nossa equipe desenha todo o projeto do software ideal para sua empresa.
         </p>
 
         <div class="buttons" style="margin-top:24px;">
           <a href="#pagina-personalizada" class="btn-primary">Conhecer Serviço</a>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="como-funciona">
-    <div class="section-title">
-      <h2>Como funciona</h2>
-      <p>
-        Um processo simples para transformar necessidade em solução digital.
-      </p>
-    </div>
-
-    <div class="steps">
-      <div class="step-card">
-        <h3>Diagnóstico do negócio</h3>
-        <p>Entendemos sua rotina, seus controles atuais, suas dificuldades e os resultados que você deseja alcançar.</p>
-      </div>
-
-      <div class="step-card">
-        <h3>Desenho da solução</h3>
-        <p>Organizamos os módulos, fluxos, telas, permissões e indicadores que farão parte do sistema.</p>
-      </div>
-
-      <div class="step-card">
-        <h3>Entrega e evolução</h3>
-        <p>Desenvolvemos, testamos, colocamos no ar e evoluímos a solução conforme o negócio cresce.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="comparativo">
-    <div class="section-title">
-      <h2>A nova geração da gestão digital</h2>
-      <p>
-        Compare o controle manual com uma solução estruturada em software.
-      </p>
-    </div>
-
-    <div class="comparison">
-      <div class="comparison-row head">
-        <div>Recurso</div>
-        <div>Controle manual</div>
-        <div>FC & WR</div>
-      </div>
-      <div class="comparison-row">
-        <div>Informações centralizadas</div>
-        <div class="minus">Limitado</div>
-        <div class="check">Sim</div>
-      </div>
-      <div class="comparison-row">
-        <div>Relatórios automáticos</div>
-        <div class="minus">Não</div>
-        <div class="check">Sim</div>
-      </div>
-      <div class="comparison-row">
-        <div>Acesso online</div>
-        <div class="minus">Parcial</div>
-        <div class="check">Sim</div>
-      </div>
-      <div class="comparison-row">
-        <div>Automação de processos</div>
-        <div class="minus">Não</div>
-        <div class="check">Sim</div>
-      </div>
-      <div class="comparison-row">
-        <div>Visão estratégica do negócio</div>
-        <div class="minus">Baixa</div>
-        <div class="check">Alta</div>
       </div>
     </div>
   </section>
@@ -974,9 +734,29 @@
     </div>
 
     <div class="features">
-      <div class="feature-box"><div class="feature-icon">👥</div><h3>Gestão de Membros</h3><p>Cadastro completo de membros, discipulado, células, histórico e acompanhamento pastoral.</p></div>
-      <div class="feature-box"><div class="feature-icon">📊</div><h3>Painel Inteligente</h3><p>Dashboard moderno com indicadores estratégicos e relatórios administrativos.</p></div>
-      <div class="feature-box"><div class="feature-icon">💰</div><h3>Controle Financeiro</h3><p>Gestão de dízimos, ofertas, campanhas financeiras e fluxo de caixa da igreja.</p></div>
+      <div class="feature-box">
+        <div class="feature-icon">👥</div>
+        <h3>Gestão de Membros</h3>
+        <p>
+          Cadastro completo de membros, discipulado, células, histórico e acompanhamento pastoral.
+        </p>
+      </div>
+
+      <div class="feature-box">
+        <div class="feature-icon">📊</div>
+        <h3>Painel Inteligente</h3>
+        <p>
+          Dashboard moderno com indicadores estratégicos e relatórios administrativos.
+        </p>
+      </div>
+
+      <div class="feature-box">
+        <div class="feature-icon">💰</div>
+        <h3>Controle Financeiro</h3>
+        <p>
+          Gestão de dízimos, ofertas, campanhas financeiras e fluxo de caixa da igreja.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -989,9 +769,29 @@
     </div>
 
     <div class="features">
-      <div class="feature-box"><div class="feature-icon">📈</div><h3>Fluxo de Caixa</h3><p>Controle completo de entradas, saídas, previsões financeiras e movimentações em tempo real.</p></div>
-      <div class="feature-box"><div class="feature-icon">🧾</div><h3>Relatórios Financeiros</h3><p>Relatórios estratégicos para análise financeira e tomada de decisões empresariais.</p></div>
-      <div class="feature-box"><div class="feature-icon">🤖</div><h3>Automação Financeira</h3><p>Alertas automáticos, integração inteligente e organização financeira automatizada.</p></div>
+      <div class="feature-box">
+        <div class="feature-icon">📈</div>
+        <h3>Fluxo de Caixa</h3>
+        <p>
+          Controle completo de entradas, saídas, previsões financeiras e movimentações em tempo real.
+        </p>
+      </div>
+
+      <div class="feature-box">
+        <div class="feature-icon">🧾</div>
+        <h3>Relatórios Financeiros</h3>
+        <p>
+          Relatórios estratégicos para análise financeira e tomada de decisões empresariais.
+        </p>
+      </div>
+
+      <div class="feature-box">
+        <div class="feature-icon">🤖</div>
+        <h3>Automação Financeira</h3>
+        <p>
+          Alertas automáticos, integração inteligente e organização financeira automatizada.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -999,161 +799,48 @@
     <div class="section-title">
       <h2>Soluções Personalizadas</h2>
       <p>
-        Você traz a ideia. Nós desenhamos o projeto, estruturamos o sistema e transformamos sua necessidade em software.
+        Desenvolvemos sistemas sob medida para empresas que precisam transformar ideias em soluções digitais modernas.
       </p>
     </div>
 
     <div class="features">
-      <div class="feature-box"><div class="feature-icon">💡</div><h3>Você apresenta a ideia</h3><p>Entendemos sua necessidade, desafio ou processo operacional para transformar sua visão em um projeto real.</p></div>
-      <div class="feature-box"><div class="feature-icon">📐</div><h3>Desenhamos o projeto</h3><p>Criamos arquitetura, fluxo, estrutura, módulos e funcionalidades de forma estratégica e personalizada.</p></div>
-      <div class="feature-box"><div class="feature-icon">🚀</div><h3>Desenvolvimento completo</h3><p>Construímos soluções modernas, escaláveis e preparadas para crescimento e automação empresarial.</p></div>
-    </div>
-  </section>
+      <div class="feature-box">
+        <div class="feature-icon">💡</div>
+        <h3>Você apresenta a ideia</h3>
+        <p>
+          Entendemos sua necessidade, desafio ou processo operacional para transformar sua visão em um projeto real.
+        </p>
+      </div>
 
-  <section>
-    <div class="section-title">
-      <h2>Transforme informação em ação</h2>
-      <p>
-        Com uma solução digital bem estruturada, sua equipe passa a trabalhar com mais clareza, velocidade e controle.
-      </p>
-    </div>
+      <div class="feature-box">
+        <div class="feature-icon">📐</div>
+        <h3>Desenhamos o projeto</h3>
+        <p>
+          Criamos toda arquitetura, fluxo e estrutura do sistema de forma estratégica e personalizada.
+        </p>
+      </div>
 
-    <div class="features">
-      <div class="feature-box"><div class="feature-icon">👨‍💼</div><h3>Prepare sua equipe</h3><p>Organize funções, permissões, processos e informações para que todos saibam o que fazer.</p></div>
-      <div class="feature-box"><div class="feature-icon">📣</div><h3>Potencialize suas campanhas</h3><p>Acompanhe resultados, cadastros, movimentações e indicadores para medir o impacto das ações.</p></div>
-      <div class="feature-box"><div class="feature-icon">📌</div><h3>Decida com segurança</h3><p>Use relatórios e dashboards para entender onde melhorar, investir ou corrigir.</p></div>
-      <div class="feature-box"><div class="feature-icon">🔁</div><h3>Aumente recorrência</h3><p>Crie processos para acompanhar clientes, membros, pagamentos, atendimentos e oportunidades.</p></div>
-    </div>
-  </section>
-
-  <section id="faq">
-    <div class="section-title">
-      <h2>Perguntas frequentes</h2>
-      <p>Respostas rápidas para quem está avaliando uma solução da FC & WR.</p>
-    </div>
-
-    <div class="faq">
-      <details><summary>Preciso instalar algum programa?</summary><p>Não necessariamente. As soluções podem ser acessadas online, conforme a estrutura definida para cada projeto.</p></details>
-      <details><summary>Vocês fazem sistema sob medida?</summary><p>Sim. O cliente apresenta a ideia ou necessidade e nossa equipe desenha o projeto para transformar isso em software.</p></details>
-      <details><summary>O sistema de igrejas já está disponível?</summary><p>Sim. O sistema de gerenciamento de igrejas é um dos produtos ativos da FC & WR.</p></details>
-      <details><summary>O sistema financeiro serve para qualquer empresa?</summary><p>Ele pode ser adaptado para diferentes rotinas financeiras, com controle de receitas, despesas, fluxo de caixa e relatórios.</p></details>
-      <details><summary>Como faço para receber uma proposta?</summary><p>Clique em “Falar com Especialista” ou use o chat no canto da tela para enviar seus dados e sua necessidade.</p></details>
+      <div class="feature-box">
+        <div class="feature-icon">🚀</div>
+        <h3>Desenvolvimento completo</h3>
+        <p>
+          Construímos soluções modernas, escaláveis e preparadas para crescimento e automação empresarial.
+        </p>
+      </div>
     </div>
   </section>
 
   <section class="cta" id="contato">
     <div class="cta-box">
-      <h2>Entre em contato e descubra como digitalizar sua gestão</h2>
+      <h2>Leve sua igreja para o próximo nível</h2>
 
       <p>
-        Conte sua necessidade para a FC & WR. Nossa equipe analisa seu cenário e indica o melhor caminho: produto pronto ou solução personalizada.
+        Modernize sua administração e tenha controle total da sua igreja com um sistema completo, seguro e inteligente.
       </p>
 
       <div class="buttons" style="justify-content:center;">
         <a href="#chat" class="btn-primary" onclick="openChat(); return false;">Começar Agora</a>
         <a href="#chat" class="btn-secondary" onclick="openChat(); return false;">Falar com Especialista</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="produto-igrejas-detalhado">
-    <div class="section-title">
-      <h2>Plataforma Completa para Gestão de Igrejas</h2>
-      <p>
-        Uma solução desenvolvida para igrejas que precisam organizar pessoas, finanças, departamentos e processos administrativos em um único sistema.
-      </p>
-    </div>
-
-    <div class="split-section">
-      <div>
-        <h2>Centralize toda administração da igreja</h2>
-        <p>
-          O Sistema de Gerenciamento de Igrejas da FC & WR foi criado para líderes, secretarias e administrações que precisam acompanhar membros, células, ministérios, contribuições e eventos de forma organizada.
-        </p>
-
-        <p>
-          Com uma estrutura moderna e intuitiva, o sistema reduz retrabalho, melhora a comunicação e oferece visão clara da operação ministerial.
-        </p>
-      </div>
-
-      <div class="highlight-panel">
-        <h3>O que o sistema oferece</h3>
-        <div class="conversion-grid">
-          <div class="conversion-pill">Cadastro de membros</div>
-          <div class="conversion-pill">Gestão de células</div>
-          <div class="conversion-pill">Controle de eventos</div>
-          <div class="conversion-pill">Financeiro da igreja</div>
-          <div class="conversion-pill">Relatórios administrativos</div>
-          <div class="conversion-pill">Painel estratégico</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="produto-financeiro-detalhado">
-    <div class="section-title">
-      <h2>Sistema Inteligente de Controle Financeiro</h2>
-      <p>
-        Controle financeiro moderno para empresas, profissionais e organizações que desejam previsibilidade e organização financeira.
-      </p>
-    </div>
-
-    <div class="split-section">
-      <div>
-        <h2>Entenda para onde o dinheiro está indo</h2>
-        <p>
-          O sistema foi criado para transformar movimentações financeiras em informações claras para tomada de decisão.
-        </p>
-
-        <p>
-          Com controle de receitas, despesas, contas a pagar e receber, fluxo de caixa e relatórios, você acompanha a saúde financeira do negócio em tempo real.
-        </p>
-      </div>
-
-      <div class="highlight-panel">
-        <h3>Funcionalidades principais</h3>
-        <div class="conversion-grid">
-          <div class="conversion-pill">Fluxo de caixa</div>
-          <div class="conversion-pill">Receitas e despesas</div>
-          <div class="conversion-pill">Contas a pagar</div>
-          <div class="conversion-pill">Contas a receber</div>
-          <div class="conversion-pill">Relatórios financeiros</div>
-          <div class="conversion-pill">Painel gerencial</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="produto-personalizado-detalhado">
-    <div class="section-title">
-      <h2>Desenvolvimento de Software Sob Medida</h2>
-      <p>
-        Criamos sistemas personalizados para empresas que possuem necessidades específicas e desejam automatizar processos internos.
-      </p>
-    </div>
-
-    <div class="split-section">
-      <div>
-        <h2>Sua ideia pode virar uma plataforma completa</h2>
-        <p>
-          Muitas empresas possuem processos únicos que não conseguem ser atendidos por softwares prontos. Por isso a FC & WR desenvolve soluções personalizadas.
-        </p>
-
-        <p>
-          Nossa equipe analisa sua operação, desenha o fluxo do sistema e transforma a necessidade em uma plataforma moderna, escalável e preparada para crescimento.
-        </p>
-      </div>
-
-      <div class="highlight-panel">
-        <h3>Como desenvolvemos</h3>
-        <div class="conversion-grid">
-          <div class="conversion-pill">Diagnóstico operacional</div>
-          <div class="conversion-pill">Mapeamento de processos</div>
-          <div class="conversion-pill">Desenho da solução</div>
-          <div class="conversion-pill">Protótipos estratégicos</div>
-          <div class="conversion-pill">Desenvolvimento completo</div>
-          <div class="conversion-pill">Evolução contínua</div>
-        </div>
       </div>
     </div>
   </section>
